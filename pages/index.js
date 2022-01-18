@@ -30,7 +30,7 @@ export default function Lessons({ sections }) {
               <div className="author">
                 <div className="image">
                   <img
-                    src={`${process.env.BASE_URL}images/author.jpg`}
+                    src={`${process.env.BASE_URL}/images/author.jpg`}
                     alt="author image"
                     className="image"
                   />
@@ -44,7 +44,7 @@ export default function Lessons({ sections }) {
           </div>
           <div className="courseIcon">
             <img
-              src={`${process.env.BASE_URL}images/course-icon.png`}
+              src={`${process.env.BASE_URL}/images/course-icon.png`}
               alt="course icon"
             />
           </div>

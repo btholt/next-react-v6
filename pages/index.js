@@ -6,13 +6,6 @@ import { getLessons } from "../data/lesson";
 import Corner from "../components/corner";
 import getCourseConfig from "../data/course";
 
-export let meta = (data) => {
-  return {
-    title: data.title,
-    description: data.description,
-  };
-};
-
 export default function Lessons({ sections }) {
   const courseInfo = getCourseConfig();
   return (

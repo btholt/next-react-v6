@@ -19,7 +19,15 @@ export default function Lessons({ sections }) {
     <>
       <Head>
         <title>{courseInfo.title}</title>
-        {/* TODO description */}
+        <meta name="description" content={courseInfo.description}></meta>
+        <meta name="keywords" content={courseInfo.keywords.join(",")}></meta>
+        <meta name="og:description" content={courseInfo.description}></meta>
+        <meta name="og:title" content={courseInfo.title}></meta>
+        <meta
+          name="og:image"
+          content={`${process.env.BASE_URL}/images/social-share-cover.jpg`}
+        ></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
       </Head>
       <div>
         <div className="jumbotron">

@@ -6,12 +6,12 @@ import { marked } from "marked";
 import hljs from "highlight.js";
 
 marked.setOptions({
+  baseUrl: process.env.BASE_URL ? process.env.BASE_URL + "/" : "/",
   highlight: function (code, lang) {
     const language = hljs.getLanguage(lang) ? lang : "plaintext";
     return hljs.highlight(code, { language }).value;
   },
   langPrefix: "hljs language-",
-  baseUrl: process.env.BASE_URL,
 });
 
 const DEFAULT_ICON = "info-circle";
@@ -187,6 +187,8 @@ export async function getLesson(targetDir, targetFile) {
             prevSlug = null;
           }
 
+          const base = process.env.BASE_URL ? process.env.BASE_URL : "/";
+
           return {
             attributes,
             html,
@@ -195,8 +197,8 @@ export async function getLesson(targetDir, targetFile) {
             section,
             icon,
             filePath,
-            nextSlug: nextSlug ? path.join("/lessons", nextSlug) : null,
-            prevSlug: prevSlug ? path.join("/lessons", prevSlug) : null,
+            nextSlug: nextSlug ? path.join(base, "lessons", nextSlug) : null,
+            prevSlug: prevSlug ? path.join(base, "lessons", prevSlug) : null,
           };
         }
       }

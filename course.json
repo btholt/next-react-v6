@@ -3,15 +3,15 @@
     "name": "Brian Holt",
     "company": "Stripe"
   },
-  "title": "A Superb Course",
-  "subtitle": "That Teaches Nice Things",
+  "title": "Complete Intro to React v6",
+  "subtitle": "and Intermediate React v3",
   "frontendMastersLink": "https://frontendmasters.com/courses/complete-react-v6/",
   "social": {
     "linkedin": "btholt",
     "github": "btholt",
     "twitter": "holtbt"
   },
-  "description": "A very nice course",
-  "keywords": ["a nice course", "for people", "to learn", "nice things"],
+  "description": "The Complete Intro to React v6, rewritten in Next.js",
+  "keywords": ["react", "javascript", "Frontend Masters", "Brian Holt"],
   "productionBaseUrl": "/next-react-v6"
 }

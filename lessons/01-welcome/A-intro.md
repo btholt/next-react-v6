@@ -5,7 +5,7 @@ description: "Brian Holt introduces you to himself, the Complete Intro to React 
 
 Hello! And welcome to the sixth edition of the Complete Intro to React as taught by [Brian Holt][twitter].
 
-![Cat, dog, and rat logo for the course](/images/BRAND-WHearts.png)
+![Cat, dog, and rat logo for the course](./images/BRAND-WHearts.png)
 
 > You _do not_ need to take the previous versions of this course in order to take this one. This is a total revision of the course that we do to keep it fresh.
 
@@ -39,7 +39,7 @@ I have been working with React for a long time. [Here's my tweet][tweet] from wh
 
 When I'm not working or developing new Frontend Masters courses, you'll find me in Seattle, WA. I love to travel, get out of breath on my Peloton, play Dota 2 and Overwatch poorly, as well as drink Islay Scotches, local IPAs and medium-roast coffees.
 
-![Brian teaching](/images/brian.jpg)
+![Brian teaching](./images/brian.jpg)
 
 Catch up with me on social media! I'll be honest: I'm not great at responding at DMs. The best way to talk to me is just to tweet at me.
 

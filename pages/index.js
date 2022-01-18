@@ -15,7 +15,6 @@ export let meta = (data) => {
 
 export default function Lessons({ sections }) {
   const courseInfo = getCourseConfig();
-  console.log(process.env.BASE_URL);
   return (
     <>
       <Head>

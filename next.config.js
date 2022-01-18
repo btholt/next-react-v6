@@ -7,6 +7,7 @@ if (process.env.NODE_ENV !== "development") {
 
 module.exports = {
   basePath: BASE_URL,
+  assetPrefix: BASE_URL,
   env: {
     ROOT: __dirname,
     BASE_URL,

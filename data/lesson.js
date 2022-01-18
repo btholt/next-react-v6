@@ -11,6 +11,7 @@ marked.setOptions({
     return hljs.highlight(code, { language }).value;
   },
   langPrefix: "hljs language-",
+  baseUrl: process.env.BASE_URL,
 });
 
 const DEFAULT_ICON = "info-circle";
